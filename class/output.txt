@@ -22,3 +22,4 @@
 < 
 ---
 > echo "sum of $digit: $total"
+#this is my output
