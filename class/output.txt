@@ -1,0 +1,24 @@
+0a1,2
+> clear
+> echo "......sum of N natural numbers in shell scripting......"
+4,6c6
+< sum=0
+< factorial=1
+< 
+---
+> total=0
+9,11c9,10
+<   sum=`expr $sum + $t`
+<   factorial=`expr $factorial \* $t`
+<   t=`expr $t + 1`
+---
+> total=`expr $total + $t`
+> t=`expr $t + 1`
+13,17c12
+< 
+< echo "Sum of first $digit natural numbers is: $sum"
+< echo "Factorial of $digit is: $factorial"
+< 
+< 
+---
+> echo "sum of $digit: $total"
