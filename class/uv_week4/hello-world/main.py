@@ -1,6 +1,13 @@
-def main():
-    print("Hello from hello-world!")
+import pandas as pd
 
+# Create a simple DataFrame
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Age': [25, 30, 35],
+    'City': ['New York', 'Los Angeles', 'Chicago']
+}
+df = pd.DataFrame(data)
 
-if __name__ == "__main__":
-    main()
+# Print the DataFrame
+print(df)
+
